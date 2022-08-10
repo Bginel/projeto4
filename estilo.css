@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px; 
+    text-align: center;
+    background: hsl(225, 100%, 94%) url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 20% 0px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+/*----- Custom img 
+-------------------------------*/
+.box img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.plan {
+    width: 83%;
+    position: relative;
+    left: 23px;
+    display: grid;
+    grid-template-columns:40px 1fr 100px;
+    padding: 10px;
+    background:hsl(225, 100%, 98%);
+    margin: 25px 0px 30px 0px;
+    padding: 20px 5px;
+    border-radius: 15px;
+}
+
+.borda1 {
+    border-radius: 55px;
+    background: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    margin: 6px 0px;
+}
+
+.borda1 i {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 9px;
+}
+
+.borda2 {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/*----- Custom written 
+-------------------------------*/
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    margin: 20px 0px;
+}
+
+h4 {
+    color: hsl(223, 47%, 23%);
+    margin-left: 10px;
+}
+
+p {
+    color:hsl(224, 23%, 55%) ;
+}
+
+.plan p {
+    margin-left: 10px;
+}
+/*----- Custom Button 
+-------------------------------*/
+.change{
+    text-align: center;
+    margin-top: 10px;
+    color: hsl(223, 47%, 23%);
+    font-size: 16px;
+}
+.change a:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.button1 {
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    padding: 4% 25%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px hsl(224, 23%, 55%);
+    border: none;
+}
+
+.button1:hover {
+    background-color:hsl(228, 45%, 44%);
+}
+
+.button2 {
+    color: hsl(224, 23%, 55%);
+    border: none;
+    margin: 15px 0px 25px 0px ;
+}
+
+.button2:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+h3 {
+    color:hsl(225, 100%, 94%) ;
+    color:hsl(245, 75%, 52%) ;
+    color:hsl(225, 100%, 98%);
+    color:hsl(224, 23%, 55%) ;
+    color:hsl(223, 47%, 23%);
+    color:hsl(228, 45%, 44%);;
+}
